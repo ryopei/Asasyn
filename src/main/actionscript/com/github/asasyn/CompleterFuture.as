@@ -1,4 +1,4 @@
-package net.asasyn {
+package com.github.asasyn {
 internal class CompleterFuture implements Future {
 
     public function CompleterFuture() {

@@ -5,7 +5,7 @@
  * Time: 18:40
  * To change this template use File | Settings | File Templates.
  */
-package net.asasyn {
+package com.github.asasyn {
 
 class EmptyObject {
     public function EmptyObject() {

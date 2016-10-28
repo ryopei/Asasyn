@@ -1,7 +1,8 @@
-package net.asasyn {
+package com.github.asasyn {
 public class Dispatcher {
     public function Dispatcher() {
     }
+
     private var listeners:Vector.<Function> = null;
 
 

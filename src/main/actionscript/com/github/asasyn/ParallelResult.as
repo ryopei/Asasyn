@@ -1,4 +1,4 @@
-package net.asasyn {
+package com.github.asasyn {
 public class ParallelResult {
     public function ParallelResult(error:Boolean, data:Object) {
         _isError = error;

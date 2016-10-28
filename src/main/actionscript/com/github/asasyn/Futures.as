@@ -1,4 +1,4 @@
-package net.asasyn {
+package com.github.asasyn {
 
 import flash.display.Loader;
 import flash.events.Event;
@@ -117,7 +117,7 @@ public class Futures {
      * 複数の非同期処理を実行して、全て成功した場合、結果をArrayで返す。
      * いずれかの処理でエラーが発生した場合、エラーを返す。
      * @param futures
-     * @return net.asasyn.Future<Array> 結果配列を返します。
+     * @return com.github.asasyn.Future<Array> 結果配列を返します。
      */
     public static function parallel(...futures):Future {
 

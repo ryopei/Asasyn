@@ -3,7 +3,7 @@ apply plugin: 'scaffold'
 apply plugin: 'idea'
 apply plugin: 'maven'
 
-group = 'net.asasyn'
+group = 'com.github.asasyn'
 version = '0.0.1'
 type = 'swc'
 

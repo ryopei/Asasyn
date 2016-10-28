@@ -1,4 +1,4 @@
-package net.asasyn {
+package com.github.asasyn {
 
 
 /**

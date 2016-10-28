@@ -1,4 +1,4 @@
-package net.asasyn {
+package com.github.asasyn {
 import flash.events.HTTPStatusEvent;
 import flash.net.URLLoader;
 import flash.net.URLRequestHeader;
