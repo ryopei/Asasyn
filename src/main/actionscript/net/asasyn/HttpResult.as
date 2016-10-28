@@ -1,13 +1,9 @@
-/**
- * Created by katsume on 2014/06/30.
- */
 package net.asasyn {
 import flash.events.HTTPStatusEvent;
 import flash.net.URLLoader;
 import flash.net.URLRequestHeader;
 
 public class HttpResult {
-
 
     public function HttpResult(urlLoader:URLLoader, event:HTTPStatusEvent) {
         _urlLoader = urlLoader;
@@ -24,9 +20,9 @@ public class HttpResult {
     private var _urlLoader:URLLoader;
 
     /**
-     * URLRequestHeaderの配列
+     * URLRequestHeader Array
      */
-    private var _responseHeaders : Array;
+    private var _responseHeaders:Array;
     private var _responseURL:String;
     private var _status:int;
     private var _contentType:String;
@@ -55,16 +51,11 @@ public class HttpResult {
     private function parseHeaders():void {
         for each(var h:URLRequestHeader in responseHeaders) {
             var name:String = h.name;
-            if (name.toLocaleLowerCase()=="content-type") {
+            if (name.toLocaleLowerCase() == "content-type") {
                 _contentType = h.value;
             }
 
         }
-    }
-
-
-    public function toString():String {
-        return "HttpResult{_urlLoader=" + String(_urlLoader) + ",_responseHeaders=" + String(_responseHeaders) + ",_responseURL=" + String(_responseURL) + ",_status=" + String(_status) + ",_contentType=" + String(_contentType) + "}";
     }
 }
 }
